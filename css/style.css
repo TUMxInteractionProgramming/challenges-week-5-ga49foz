@@ -9,6 +9,29 @@
   * Accent color_text: black
   */
 
+
+
+
+button {
+    height: 36px;
+    min-width:88px  ; 
+    font-size: 14pt ;
+    border-radius: 2px ;
+    padding: 0px 16px 0px 16px;
+    margin:	8px;
+    background-color: white;
+    border-color: none;
+    color: black;
+    text-transform: uppercase;    
+    
+    
+}
+
+
+
+
+
+
 /* GLOBAL */
 
 * {
@@ -157,9 +180,10 @@ li.selected {
     bottom: 0;
     width: 100%;
     display: flex;
+    height: 72px;
 }
 
-#tab-bar button, #chat-bar button {
+#tab-bar button{
     background-color: white;
     border: none;
     font-size: 13px;
@@ -189,7 +213,7 @@ li.selected {
     /* override button styles. We set the chat bar to appear like a tab-bar above. This overrides the tab bar's button scaling */
     width: auto;
     flex-grow: 0;
-
+    
     /* #7 #icns #smile adjust fa size */
     font-size: 24px;
 }
@@ -271,9 +295,9 @@ li.selected {
 
 .message button {
     /* +5 min. button*/
-    background-color: #CDDC39;
-    color: black;
-    text-transform: uppercase;
+    
+    
+    
 
     /* right/bottom alignment of button */
     position: absolute;
@@ -284,3 +308,40 @@ li.selected {
 .message.own {
     margin-left: 17.5%;
 }
+
+.primary {
+    
+    background-color:#3F51B5;
+    color:white; 
+    
+} 
+
+.accent{
+    background-color:#CDDC39 ;
+    color: black; 
+    
+}
+
+
+.md-whiteframe-2dp {
+    box-shadow:  0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 3px 1px -2px rgba(0, 0, 0, 0.12); }
+
+.md-whiteframe-24dp {
+    box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
+    0px 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0px 9px 46px 8px rgba(0, 0, 0, 0.12); }
+
+#circle {
+    
+    min-width: 50px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative; 
+    font-size: 30px ; 
+    top: 450px;
+    right: -370px; 
+}
+
